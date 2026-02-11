@@ -1,0 +1,12 @@
+[package]
+name = "beesmile"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.57", features = ["derive"] }
+qsar = "0.0.2"
+smartcore = "0.4.9"
+burn = { version = "0.19.1", features = ["train", "vision", "network", "cpu", "cuda", "ndarray", "wgpu", "dataset", "std", "autodiff", "fusion", "store", "doc", "metrics"] }
+rayon = "1.11.0"
+
