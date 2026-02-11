@@ -7,6 +7,11 @@ edition = "2024"
 clap = { version = "4.5.57", features = ["derive"] }
 qsar = "0.0.2"
 smartcore = "0.4.9"
-burn = { version = "0.19.1", features = ["train", "vision", "network", "cpu", "cuda", "ndarray", "wgpu", "dataset", "std", "autodiff", "fusion", "store", "doc", "metrics"] }
 rayon = "1.11.0"
-
+ndarray = "0.17.1"
+burn = { version = "0.20.1", features = ["train","metrics","cpu"] }
+chemcore = "0.4.1"
+anyhow = "1.0.101"
+figlet-rs = "0.1.5"
+gamma = "0.9.0"
+vertex = "0.1.0"
